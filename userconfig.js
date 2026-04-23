@@ -19,13 +19,13 @@ const default_configuration = {
   },
   additionalClocks: [
     {
-      label: "LA",
+      label: "la",
       timezone: "America/Los_Angeles",
       format: "h:i",
       icon_color: palette.lavender,
     },
     {
-      label: "AN",
+      label: "an",
       timezone: "America/Chicago",
       format: "h:i",
       icon_color: palette.lavender,
@@ -48,11 +48,11 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "Favourites",
-      background_url: "src/img/banners/banner_15.gif",
+      name: "myself",
+      background_url: "src/img/banners/banner_09.gif",
       categories: [
         {
-          name: "Personal",
+          name: "❤️",
           links: [
             {
               name: "gmail",
@@ -79,15 +79,91 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "chatgpt",
-              url: "https://chatgpt.com/",
-              icon: "settings-ai",
-              icon_color: palette.teal,
+              name: "journalit",
+              url: "https://journalit.app/",
+              icon: "book-2",
+              icon_color: palette.mauve,
             },
           ],
         },
         {
-          name: "shopping",
+          name: "📺",
+          links: [
+            {
+              name: "youtube",
+              url: "https://www.youtube.com",
+              icon: "brand-youtube",
+              icon_color: palette.red,
+            },
+            {
+              name: "patreon",
+              url: "https://www.patreon.com",
+              icon: "brand-patreon",
+              icon_color: palette.yellow,
+            },
+            {
+              name: "twitch",
+              url: "https://twitch.tv",
+              icon: "brand-twitch",
+              icon_color: palette.mauve,
+            },
+            {
+              name: "kick",
+              url: "https://www.kick.com",
+              icon: "brand-kick",
+              icon_color: palette.green,
+            },
+            {
+              name: "southhemitv",
+              url: "https://southhemitv.com/",
+              icon: "device-remote",
+              icon_color: palette.blue,
+            },
+          ],
+        },
+        {
+          name: "💻",
+          links: [
+            {
+              name: "github",
+              url: "https://www.github.com",
+              icon: "brand-github",
+              icon_color: palette.rosewater,
+            },
+            {
+              name: "unicode",
+              url: "https://www.vertex42.com/ExcelTips/unicode-symbols.html",
+              icon: "math-symbols",
+              icon_color: palette.yellow,
+            },
+            {
+              name: "opendesktop",
+              url: "https://opendesktop.org",
+              icon: "palette",
+              icon_color: palette.peach,
+            },
+            {
+              name: "catppuccin",
+              url: "https://catppuccin.com",
+              icon: "cat",
+              icon_color: palette.mauve,
+            },
+            {
+              name: "chatgpt",
+              url: "https://chatgpt.com",
+              icon: "ai",
+              icon_color: palette.sky,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "",
+      background_url: "src/img/banners/banner_07.gif",
+      categories: [
+        {
+          name: "🛍️",
           links: [
             {
               name: "amazon",
@@ -122,7 +198,111 @@ const default_configuration = {
           ],
         },
         {
-          name: "social",
+          name: "🛍️",
+          links: [
+            {
+              name: "etsy",
+              url: "https://etsy.com",
+              icon: "brand-etsy",
+              icon_color: palette.peach,
+            },
+            {
+              name: "ebay",
+              url: "https://ebay.com",
+              icon: "gavel",
+              icon_color: palette.yellow,
+            },
+            {
+              name: "vapestreams",
+              url: "https://vapestreams.co.uk/",
+              icon: "smoking-no",
+              icon_color: palette.blue,
+            },
+          ],
+        },
+        {
+          name: "🫆",
+          links: [
+            {
+              name: "drive",
+              url: "https://drive.google.com",
+              icon: "brand-google-drive",
+              icon_color: palette.peach,
+            },
+            {
+              name: "calender",
+              url: "https://calender.google.com",
+              icon: "calendar-week",
+              icon_color: palette.red,
+            },
+            {
+              name: "docs",
+              url: "https://docs.google.com",
+              icon: "file-description",
+              icon_color: palette.sapphire,
+            },
+            {
+              name: "sheets",
+              url: "https://sheets.google.com",
+              icon: "table",
+              icon_color: palette.green,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "",
+      background_url: "src/img/banners/banner_08.gif",
+      categories: [
+        {
+          name: "💙",
+          links: [
+            {
+              name: "niivu",
+              url: "https://www.deviantart.com/niivu",
+              icon: "brand-windows",
+              icon_color: palette.green,
+            },
+            {
+              name: "creativefabrica",
+              url: "https://www.creativefabrica.com/",
+              icon: "brush",
+              icon_color: palette.yellow,
+            },
+            {
+              name: "reddit",
+              url: "https://www.reddit.com/r/unixporn",
+              icon: "brand-reddit",
+              icon_color: palette.red,
+            },
+          ],
+        },
+        {
+          name: "🎮",
+          links: [
+            {
+              name: "raenonx",
+              url: "https://pks.raenonx.cc/en",
+              icon: "pokeball",
+              icon_color: palette.mauve,
+            },
+            {
+              name: "steam",
+              url: "https://store.steampowered.com",
+              icon: "brand-steam",
+              icon_color: palette.blue,
+            },
+            {
+              name: "nonogram",
+              url: "https://nonograms-katana.fandom.com/wiki/Nonograms_Katana_Wiki",
+              icon: "torii",
+              icon_color: palette.red,
+            },
+          ],
+        },
+        {
+          name: "💬",
           links: [
             {
               name: "facebook",
@@ -148,33 +328,10 @@ const default_configuration = {
               icon: "brand-pinterest",
               icon_color: palette.red,
             },
-          ],
-        },
-        {
-          name: "dev",
-          links: [
             {
-              name: "github",
-              url: "https://www.github.com",
-              icon: "brand-github",
-              icon_color: palette.rosewater,
-            },
-            {
-              name: "unicode",
-              url: "https://www.vertex42.com/ExcelTips/unicode-symbols.html",
-              icon: "math-symbols",
-              icon_color: palette.yellow,
-            },
-            {
-              name: "opendesktop",
-              url: "https://opendesktop.org",
-              icon: "palette",
-              icon_color: palette.peach,
-            },
-            {
-              name: "catppuccin",
-              url: "https://catppuccin.com",
-              icon: "cat",
+              name: "ao3",
+              url: "https://archiveofourown.org",
+              icon: "book",
               icon_color: palette.mauve,
             },
           ],
