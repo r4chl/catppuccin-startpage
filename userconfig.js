@@ -20,13 +20,13 @@ const default_configuration = {
   additionalClocks: [
     {
       label: "LA",
-      timezone: "America/Los Angeles",
+      timezone: "America/Los_Angeles",
       format: "h:i",
       icon_color: palette.lavender,
     },
     {
       label: "AN",
-      timezone: "America/Houston",
+      timezone: "America/Chicago",
       format: "h:i",
       icon_color: palette.lavender,
     },
