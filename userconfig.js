@@ -49,7 +49,7 @@ const default_configuration = {
   tabs: [
     {
       name: "one",
-      background_url: "src/img/banners/banner_15.gif",
+      background_url: "src/img/banners/banner_14.gif",
       categories: [
         {
           name: "❤️",
@@ -160,7 +160,7 @@ const default_configuration = {
     },
     {
       name: "two",
-      background_url: "src/img/banners/banner_13.gif",
+      background_url: "src/img/banners/banner_19.gif",
       categories: [
         {
           name: "🛍️",
@@ -253,7 +253,7 @@ const default_configuration = {
     },
     {
       name: "three",
-      background_url: "src/img/banners/banner_14.gif",
+      background_url: "src/img/banners/banner_20.gif",
       categories: [
         {
           name: "💙",
